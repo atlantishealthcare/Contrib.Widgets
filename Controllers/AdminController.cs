@@ -6,7 +6,6 @@ using Contrib.Widgets.Models;
 using Contrib.Widgets.Services;
 using Orchard;
 using Orchard.ContentManagement;
-using Orchard.Core.Contents.Controllers;
 using Orchard.Environment.Extensions;
 using Orchard.Localization;
 using Orchard.Logging;
