@@ -156,6 +156,16 @@
   <ItemGroup>
     <Content Include="Views\Admin\CreateContent.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\admin.widgets-container.min.js.map">
+      <DependentUpon>admin.widgets-container.min.js</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\admin.edit-widget.min.js.map">
+      <DependentUpon>admin.edit-widget.min.js</DependentUpon>
+    </Content>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
